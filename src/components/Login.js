@@ -13,7 +13,7 @@ const Login = () => {
   return (
     <div className="login-container">
       <div className="logo">
-        <img src="images/bro-pool-logo.png" alt="BroPool Logo" />
+        <img src={`${process.env.PUBLIC_URL}/images/bro-pool-logo.png`} alt="BroPool Logo" />
       </div>
       <form onSubmit={handleLogin} className="login-form">
         <div className="input-group">

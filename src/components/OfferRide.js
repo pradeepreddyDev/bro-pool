@@ -19,7 +19,7 @@ const OfferRide = () => {
       {/* Top Map View */}
       <div className="map-view">
         {/* Add a map image or embed a map component here */}
-        <img src="images/Map.png" alt="Map View" className="map-image" />
+        <img src={`${process.env.PUBLIC_URL}/images/Map.png`} alt="Map View" className="map-image" />
       </div>
 
       {/* Bottom Card */}

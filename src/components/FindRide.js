@@ -12,7 +12,7 @@ const ridesData = [
     time: "9:00 AM",
     pickupLocation: "8946 Eswx St. Sunnyside, IN 46321",
     dropoffLocation: "9000 Esss St. Sunnyside, IN 46321",
-    profilePic: "images/driver-profile.png", // Placeholder image
+    profilePic: `${process.env.PUBLIC_URL}/images/driver-profile.png`
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const ridesData = [
     time: "9:00 AM",
     pickupLocation: "8946 Eex St. Sunnyside, IN 46321",
     dropoffLocation: "9000 Ess St. Sunnyside, IN 46321",
-    profilePic: "images/driver-profile.png", // Placeholder image
+    profilePic: `${process.env.PUBLIC_URL}/images/driver-profile.png`
   },
 ];
 

@@ -12,7 +12,7 @@ const Profile = () => {
       {/* Profile Information */}
       <div className="profile-info">
         <div className="profile-picture">
-          <img src="images/profile-placeholder.png" alt="Profile" />
+          <img src={`${process.env.PUBLIC_URL}/images/profile-placeholder.png`} alt="Profile" />
         </div>
         <h3 className="profile-name">Daniel Austin</h3>
         <p className="profile-number">+1-202-202-4333</p>

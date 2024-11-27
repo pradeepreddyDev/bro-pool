@@ -11,7 +11,7 @@ const MyRides = () => {
       date: '10 June, 2024',
       time: '9:00AM',
       address: '8946 Essex St. Sunnyside, IN 46321',
-      image: 'images/profile-placeholder.png',
+      image: `${process.env.PUBLIC_URL}/images/profile-placeholder.png`
     },
     {
       id: 2,
@@ -20,7 +20,7 @@ const MyRides = () => {
       date: '10 June, 2024',
       time: '9:00AM',
       address: '8946 Essex St. Sunnyside, IN 46321',
-      image: 'images/profile-placeholder.png',
+      image: `${process.env.PUBLIC_URL}/images/profile-placeholder.png`
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ const MyRides = () => {
       date: '10 June, 2024',
       time: '9:00AM',
       address: '8946 Essex St. Sunnyside, IN 46321',
-      image: 'images/profile-placeholder.png',
+      image: `${process.env.PUBLIC_URL}/images/profile-placeholder.png`
     },
   ];
 
