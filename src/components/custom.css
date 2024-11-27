@@ -1,0 +1,733 @@
+/* Login.css */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-color: #f8f9fa; */
+  }
+  
+  /* .logo img {
+    width: 150px;
+    margin-bottom: 20px;
+  } */
+  
+  .login-form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .subtitle {
+    text-align: center;
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .input-group input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #003f8c;
+  }
+  
+  .signup-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .signup-link a {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
+
+  /* Custom Button */
+.custom-button {
+  display: block;
+  width: 100%;
+  height: 56px;
+  background-color: #2f6373;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 56px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-button:hover {
+  background-color: #265259;
+  transform: scale(1.02);
+}
+
+.custom-button:active {
+  background-color: #1e414a;
+  transform: scale(0.98);
+}
+
+
+.form-control {
+  width: 100%;
+  max-width: 325px; /* Matches Figma width */
+  height: 56px; /* Matches Figma height */
+  background: #EAEAEA; /* Fill color */
+  border: 2px solid #ccc; /* Stroke color and weight - make it visible */
+  border-radius: 30px; /* Rounded corners */
+  padding: 10px 20px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #371B34; /* Text color */
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transitions */
+}
+
+/* Focus State */
+.form-control:focus {
+  border-color: #2f6373; /* Change border color on focus */
+  outline: none;
+  background: #ffffff; /* Change background on focus for better UX */
+}
+
+
+/* Maybe Later Button */
+.maybe-later-button {
+  background: none;
+  border: none;
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.maybe-later-button:hover {
+  text-decoration: underline;
+}
+
+/* Icon Style */
+.location-icon {
+  font-size: 100px;
+  color: #2f6373;
+  margin-bottom: 20px;
+}
+
+/* Page Container */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+
+/* Offer Ride Page Styles */
+
+.offer-ride-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+/* Map View */
+.map-view {
+  height: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.map-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Ride Form Container */
+.ride-form-container {
+  background: white;
+  border-radius: 30px 30px 0 0;
+  padding: 20px;
+  position: relative;
+  top: -20px;
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-handle {
+  width: 60px;
+  height: 6px;
+  background: #ccc;
+  border-radius: 10px;
+  margin: 0 auto 20px auto;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #371B34;
+}
+
+/* Input Group */
+.input-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  height: 56px;
+  background: #EAEAEA;
+  border: none;
+  border-radius: 20px;
+  padding: 15px 20px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #371B34;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+  outline: none;
+  background: #ffffff;
+}
+
+/* Input Icons */
+.input-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #6c757d;
+  font-size: 20px;
+}
+
+/* Custom Button */
+.custom-button {
+  display: block;
+  width: 100%;
+  height: 56px;
+  background-color: #2f6373;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 56px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-button:hover {
+  background-color: #265259;
+  transform: scale(1.02);
+}
+
+.custom-button:active {
+  background-color: #1e414a;
+  transform: scale(0.98);
+}
+
+
+/* Find Ride Page Styles */
+.find-ride-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+/* Header with Title and Filter Link */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #371B34;
+}
+
+.filter-link {
+  color: #007bff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.filter-link:hover {
+  text-decoration: underline;
+}
+
+/* Search Bar */
+.search-bar {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.search-bar .form-control {
+  width: 100%;
+  height: 48px;
+  border-radius: 25px;
+  padding: 15px 20px;
+  background: #eaeaea;
+  border: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #6c757d;
+}
+
+/* Ride Cards */
+.ride-card {
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.ride-card-header {
+  display: flex;
+  align-items: center;
+}
+
+.driver-profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.ride-info {
+  flex-grow: 1;
+}
+
+.driver-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.car-model {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.ride-date-time {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.available-seats {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.ride-card-body {
+  margin-top: 10px;
+}
+
+.location-icon {
+  margin-right: 5px;
+}
+
+.custom-button.small-button {
+  display: flex;  /* Use flexbox to ensure centering */
+  align-items: center;  /* Center content vertically */
+  justify-content: center;  /* Center content horizontally */
+  width: 100%;
+  height: 40px;
+  background-color: #2f6373;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #ffffff;  /* Ensure text color is white */
+  font-weight: bold;
+  cursor: pointer;
+  border: none;  /* Remove any default border */
+  outline: none;  /* Remove outline when focused */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-button.small-button:hover {
+  background-color: #265259;
+  transform: scale(1.02);
+}
+
+/* Request a Ride Button */
+.request-ride-button {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #2f6373;
+  height: 56px;
+  font-size: 18px;
+  border-radius: 50px;
+}
+
+.request-ride-button:hover {
+  background-color: #265259;
+}
+
+
+/* Profile Page Styles */
+.profile-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Profile Info */
+.profile-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #eaeaea;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-picture img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #371b34;
+  margin: 10px 0 5px;
+}
+
+.profile-number {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+/* Profile Options */
+.profile-options {
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+
+.profile-option {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-option:hover {
+  background-color: #f1f1f1;
+}
+
+.option-icon {
+  margin-right: 15px;
+  color: #6c757d;
+  font-size: 20px;
+}
+
+/* Logout Button */
+.logout-button {
+  display: block;
+  width: 100%;
+  height: 56px;
+  background-color: #2f6373;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 56px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.logout-button:hover {
+  background-color: #265259;
+}
+
+.logout-button:active {
+  background-color: #1e414a;
+  transform: scale(0.98);
+}
+
+
+/* My Rides Page Styles */
+.my-rides-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.text-center {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #371b34;
+  font-weight: bold;
+}
+
+/* Ride Card Styles */
+.rides-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Spacing between ride cards */
+}
+
+.ride-card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ride-info {
+  display: flex;
+  align-items: center;
+}
+
+.ride-driver-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.ride-details h5 {
+  margin: 0;
+  font-weight: bold;
+  color: #371b34;
+}
+
+.ride-seats {
+  color: red;
+  font-weight: bold;
+}
+
+.ride-address {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.location-icon {
+  margin-right: 5px;
+  color: #6c757d;
+}
+
+/* Cancel Button */
+.small-button {
+  display: block;
+  width: 100px;
+  height: 40px;
+  background-color: #2f6373;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.small-button:hover {
+  background-color: #265259;
+}
+
+.small-button:active {
+  background-color: #1e414a;
+  transform: scale(0.98);
+}
+
+
+/* Request a Ride Page Styles */
+.request-ride-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #371b34;
+  font-weight: bold;
+}
+
+.ride-form h5 {
+  color: #371b34;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Input Group */
+.input-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.input-icon-style {
+  color: #6c757d;
+  font-size: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px 40px 10px 40px;
+  background: #eaeaea;
+  border: 1px solid #eaeaea;
+  border-radius: 20px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #371b34;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+  background: #ffffff;
+}
+
+.half-width {
+  width: 48%;
+  display: inline-block;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Schedule Button */
+.schedule-button {
+  background-color: #2f6373;
+}
+
+.schedule-button:hover {
+  background-color: #265259;
+}
+
+.schedule-button:active {
+  background-color: #1e414a;
+  transform: scale(0.98);
+}
+
+/* Cancel Button */
+.cancel-button {
+  background-color: #ea3a2b;
+}
+
+.cancel-button:hover {
+  background-color: #c53024;
+}
+
+.cancel-button:active {
+  background-color: #a6291f;
+  transform: scale(0.98);
+}
