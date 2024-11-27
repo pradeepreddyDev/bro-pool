@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bro-pool/static/css/main.cc397b67.css",
+    "main.js": "/bro-pool/static/js/main.351fa5aa.js",
+    "static/js/453.0a791621.chunk.js": "/bro-pool/static/js/453.0a791621.chunk.js",
+    "index.html": "/bro-pool/index.html",
+    "main.cc397b67.css.map": "/bro-pool/static/css/main.cc397b67.css.map",
+    "main.351fa5aa.js.map": "/bro-pool/static/js/main.351fa5aa.js.map",
+    "453.0a791621.chunk.js.map": "/bro-pool/static/js/453.0a791621.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc397b67.css",
+    "static/js/main.351fa5aa.js"
+  ]
+}
